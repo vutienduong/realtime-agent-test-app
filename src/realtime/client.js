@@ -76,7 +76,6 @@ export async function createWorldRoomConnection({
 
   peer.addEventListener("connectionstatechange", () => {
     if (["failed", "disconnected"].includes(peer.connectionState)) onState("recoverable-error");
-    if (peer.connectionState === "closed") onState("disconnected");
   });
 
   peer.addEventListener("track", (event) => {
