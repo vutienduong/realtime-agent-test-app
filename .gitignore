@@ -7,4 +7,6 @@ dist/
 *.key
 .DS_Store
 coverage/
+output/
+.playwright-mcp/
 npm-debug.log*

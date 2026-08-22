@@ -6,6 +6,8 @@ Track established facts within the conversation and gently surface useful connec
 Avoid long lists, headings, or meta-commentary. Never claim to have performed actions outside this conversation.`;
 
 export function createSessionConfig() {
+  // Current model guidance: https://developers.openai.com/api/docs/guides/realtime
+  // Semantic VAD: https://developers.openai.com/api/docs/guides/realtime-vad
   return {
     type: "realtime",
     model: "gpt-realtime-2.1",
