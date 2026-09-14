@@ -1,0 +1,33 @@
+name: World Room
+slug: world-room
+summary: Build fictional worlds through a low-latency voice conversation with an AI creative partner.
+description: A voice-first worldbuilding experiment using browser WebRTC and the OpenAI Realtime API to turn spoken ideas into a living creative session.
+why_it_exists: Creative ideation often flows better in conversation than in forms, so this prototype explores voice as the primary interface for building worlds.
+
+labs:
+  enabled: true
+  visibility: request_access
+  status: active
+
+category: AI Tools
+tags:
+  - AI
+  - Voice
+  - Realtime
+  - Creativity
+built_with:
+  - JavaScript
+  - Node.js
+  - Express
+  - WebRTC
+  - OpenAI Realtime API
+related_service: Realtime AI Experiences
+
+distribution:
+  facebook: off
+  x: off
+  linkedin: approval
+
+automation:
+  screenshot: true
+  ai_classification: false
